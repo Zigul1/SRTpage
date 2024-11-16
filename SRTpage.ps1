@@ -295,10 +295,10 @@ $ButtonHTML.Add_Click({
                     <div>
                         <a href="#" onclick="document.getElementById('vid').currentTime=$totalSeconds; return false;">$line
                         </a>
-                    </div> `n
+                    </div>
 "@ >> "$($LabelSaveP.Text)"
                 } else {
-                    "$line `n" >> "$($LabelSaveP.Text)"
+                    "$line" >> "$($LabelSaveP.Text)"
                 }
             }
 
